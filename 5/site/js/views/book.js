@@ -1,7 +1,6 @@
 /**
  * Created by Administrator on 2015/12/7.
  */
-var app=app||{};
 app.BookView=Backbone.View.extend({
     tagName:"div",
     className:"bookContainer",

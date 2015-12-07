@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2015/12/7.
- */
 var app=app||{};
 app.Book=Backbone.Model.extend({
     defaults:{
@@ -10,4 +7,4 @@ app.Book=Backbone.Model.extend({
         releaseDate:"Unkown",
         keywords:"None"
     }
-})
+});

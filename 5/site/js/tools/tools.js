@@ -1,6 +1,7 @@
 $("#upload").change(function(){
     var objUrl = getObjectURL(this.files[0]);
     $("#img").empty();
+
     if (objUrl) {
         $("#img").append('<img src='+objUrl+' width="50" height="50"/>');
         $("#coverImage").val(objUrl);
